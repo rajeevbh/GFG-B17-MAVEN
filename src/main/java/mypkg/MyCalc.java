@@ -19,7 +19,7 @@ public class MyCalc {
 	}
 	public void show()
 	{
-		System.out.println("GFG Show Function!");
+		System.out.println("GFG Show Function!!");
 	}
 	
 
