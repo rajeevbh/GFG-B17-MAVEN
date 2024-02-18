@@ -25,7 +25,10 @@ public class MyCalc {
 	{
 		System.out.println("GFG Hello Function!!");
 	}
-	
+	public void test()
+	{
+		System.out.println("Hello! Docker conatiner from GitHub Actions");
+	}
 
 	public static void main(String[] args) {
 		MyCalc calc = new MyCalc();
@@ -35,5 +38,6 @@ public class MyCalc {
 		System.out.println("Division is :"+calc.div(20, 10));
 		calc.show();
 		calc.hello();
+		calc.test();
 	}
 }
